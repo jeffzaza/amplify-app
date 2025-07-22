@@ -89,6 +89,8 @@
               }
             ],
             "styles": [
+	      "node_modules/@aws-amplify/ui-angular/theme.css",
+	      "node_modules/@aws-amplify/ui-angular/styles.css",
               "src/styles.css"
             ],
             "scripts": []
