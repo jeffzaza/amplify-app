@@ -17,6 +17,12 @@
       },
       "auth": {
         "amplifyappcce7410a": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1hkucvv0st3oi",
+          "type": "manual"
+        }
       }
     }
   }
