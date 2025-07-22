@@ -15,3 +15,12 @@
     <button type="submit">Submit</button>
   </form>
 </div>
+
+<div>
+  @for (todo of todos?.items; track todo?.id) {
+  <div>{{ todo?.name }}</div>
+  <div>{{ todo?.description }}</div>
+  } @empty {
+  <div>There are no items.</div>
+  }
+</div>
